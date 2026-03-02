@@ -1,3 +1,3 @@
 # listen_to_wikipedia
 
-A new Flutter project.
+A cross-platform Flutter implementation of https://listen.hatnote.com/

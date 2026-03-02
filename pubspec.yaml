@@ -1,5 +1,5 @@
 name: listen_to_wikipedia
-description: "A new Flutter project."
+description: "A cross-platform Flutter implementation of https://listen.hatnote.com/"
 publish_to: 'none'
 version: 0.1.0+1
 
