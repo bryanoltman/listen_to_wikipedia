@@ -1,3 +1,4 @@
+import 'package:collection/collection.dart';
 import 'package:equatable/equatable.dart';
 
 class Language implements Equatable {
@@ -5,6 +6,10 @@ class Language implements Equatable {
 
   final String code;
   final String name;
+
+  static Language? byCode(String code) {
+    return supportedLanguages.firstWhereOrNull((l) => l.code == code);
+  }
 
   static List<Language> supportedLanguages = [
     const Language(code: 'en', name: 'English'),

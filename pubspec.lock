@@ -122,7 +122,7 @@ packages:
     source: hosted
     version: "4.11.1"
   collection:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: collection
       sha256: "2f5709ae4d3d59dd8f7cd309b4e023046b57d8a6c82130785d2b0e5868084e76"
@@ -417,7 +417,7 @@ packages:
     source: hosted
     version: "2.1.4"
   stream_transform:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: stream_transform
       sha256: ad47125e588cfd37a9a7f86c7d6356dde8dfe89d071d293f80ca9e9273a33871
